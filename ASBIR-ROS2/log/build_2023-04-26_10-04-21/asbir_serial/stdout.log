@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/asbir_serial/asbir_serial.egg-info
+writing ../../build/asbir_serial/asbir_serial.egg-info/PKG-INFO
+writing dependency_links to ../../build/asbir_serial/asbir_serial.egg-info/dependency_links.txt
+writing entry points to ../../build/asbir_serial/asbir_serial.egg-info/entry_points.txt
+writing requirements to ../../build/asbir_serial/asbir_serial.egg-info/requires.txt
+writing top-level names to ../../build/asbir_serial/asbir_serial.egg-info/top_level.txt
+writing manifest file '../../build/asbir_serial/asbir_serial.egg-info/SOURCES.txt'
+reading manifest file '../../build/asbir_serial/asbir_serial.egg-info/SOURCES.txt'
+writing manifest file '../../build/asbir_serial/asbir_serial.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/aralab/ASBIR/ASBIR-ROS2/build/asbir_serial/build
+creating /home/aralab/ASBIR/ASBIR-ROS2/build/asbir_serial/build/lib
+creating /home/aralab/ASBIR/ASBIR-ROS2/build/asbir_serial/build/lib/asbir_serial
+copying asbir_serial/__init__.py -> /home/aralab/ASBIR/ASBIR-ROS2/build/asbir_serial/build/lib/asbir_serial
+copying asbir_serial/serialComm.py -> /home/aralab/ASBIR/ASBIR-ROS2/build/asbir_serial/build/lib/asbir_serial
+running install
+running install_lib
+creating /home/aralab/ASBIR/ASBIR-ROS2/install/asbir_serial/lib/python3.8/site-packages/asbir_serial
+copying /home/aralab/ASBIR/ASBIR-ROS2/build/asbir_serial/build/lib/asbir_serial/__init__.py -> /home/aralab/ASBIR/ASBIR-ROS2/install/asbir_serial/lib/python3.8/site-packages/asbir_serial
+copying /home/aralab/ASBIR/ASBIR-ROS2/build/asbir_serial/build/lib/asbir_serial/serialComm.py -> /home/aralab/ASBIR/ASBIR-ROS2/install/asbir_serial/lib/python3.8/site-packages/asbir_serial
+byte-compiling /home/aralab/ASBIR/ASBIR-ROS2/install/asbir_serial/lib/python3.8/site-packages/asbir_serial/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/aralab/ASBIR/ASBIR-ROS2/install/asbir_serial/lib/python3.8/site-packages/asbir_serial/serialComm.py to serialComm.cpython-38.pyc
+running install_data
+creating /home/aralab/ASBIR/ASBIR-ROS2/install/asbir_serial/share/ament_index
+creating /home/aralab/ASBIR/ASBIR-ROS2/install/asbir_serial/share/ament_index/resource_index
+creating /home/aralab/ASBIR/ASBIR-ROS2/install/asbir_serial/share/ament_index/resource_index/packages
+copying resource/asbir_serial -> /home/aralab/ASBIR/ASBIR-ROS2/install/asbir_serial/share/ament_index/resource_index/packages
+copying package.xml -> /home/aralab/ASBIR/ASBIR-ROS2/install/asbir_serial/share/asbir_serial
+running install_egg_info
+Copying ../../build/asbir_serial/asbir_serial.egg-info to /home/aralab/ASBIR/ASBIR-ROS2/install/asbir_serial/lib/python3.8/site-packages/asbir_serial-0.0.0-py3.8.egg-info
+running install_scripts
+Installing serialComm script to /home/aralab/ASBIR/ASBIR-ROS2/install/asbir_serial/lib/asbir_serial
+writing list of installed files to '/home/aralab/ASBIR/ASBIR-ROS2/build/asbir_serial/install.log'

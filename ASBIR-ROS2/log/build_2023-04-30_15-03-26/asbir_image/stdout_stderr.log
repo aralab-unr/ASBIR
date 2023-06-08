@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/asbir_image/asbir_image.egg-info/PKG-INFO
+writing dependency_links to ../../build/asbir_image/asbir_image.egg-info/dependency_links.txt
+writing entry points to ../../build/asbir_image/asbir_image.egg-info/entry_points.txt
+writing requirements to ../../build/asbir_image/asbir_image.egg-info/requires.txt
+writing top-level names to ../../build/asbir_image/asbir_image.egg-info/top_level.txt
+reading manifest file '../../build/asbir_image/asbir_image.egg-info/SOURCES.txt'
+writing manifest file '../../build/asbir_image/asbir_image.egg-info/SOURCES.txt'
+running build
+running build_py
+copying asbir_image/asbirCam_pub.py -> /home/aralab/ASBIR/ASBIR-ROS2/build/asbir_image/build/lib/asbir_image
+running install
+running install_lib
+copying /home/aralab/ASBIR/ASBIR-ROS2/build/asbir_image/build/lib/asbir_image/asbirCam_pub.py -> /home/aralab/ASBIR/ASBIR-ROS2/install/asbir_image/lib/python3.8/site-packages/asbir_image
+byte-compiling /home/aralab/ASBIR/ASBIR-ROS2/install/asbir_image/lib/python3.8/site-packages/asbir_image/asbirCam_pub.py to asbirCam_pub.cpython-38.pyc
+running install_data
+running install_egg_info
+removing '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_image/lib/python3.8/site-packages/asbir_image-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/asbir_image/asbir_image.egg-info to /home/aralab/ASBIR/ASBIR-ROS2/install/asbir_image/lib/python3.8/site-packages/asbir_image-0.0.0-py3.8.egg-info
+running install_scripts
+Installing CamPub script to /home/aralab/ASBIR/ASBIR-ROS2/install/asbir_image/lib/asbir_image
+writing list of installed files to '/home/aralab/ASBIR/ASBIR-ROS2/build/asbir_image/install.log'

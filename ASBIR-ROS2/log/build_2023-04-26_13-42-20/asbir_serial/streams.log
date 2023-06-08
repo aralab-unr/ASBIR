@@ -1,0 +1,21 @@
+[1.804s] Invoking command in '/home/aralab/ASBIR/ASBIR-ROS2/src/asbir_serial': PYTHONPATH=/home/aralab/ASBIR/ASBIR-ROS2/build/asbir_serial/prefix_override:/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_serial/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/asbir_serial build --build-base /home/aralab/ASBIR/ASBIR-ROS2/build/asbir_serial/build install --record /home/aralab/ASBIR/ASBIR-ROS2/build/asbir_serial/install.log --install-scripts $base/lib/asbir_serial --single-version-externally-managed
+[2.005s] running egg_info
+[2.006s] writing ../../build/asbir_serial/asbir_serial.egg-info/PKG-INFO
+[2.006s] writing dependency_links to ../../build/asbir_serial/asbir_serial.egg-info/dependency_links.txt
+[2.006s] writing entry points to ../../build/asbir_serial/asbir_serial.egg-info/entry_points.txt
+[2.006s] writing requirements to ../../build/asbir_serial/asbir_serial.egg-info/requires.txt
+[2.006s] writing top-level names to ../../build/asbir_serial/asbir_serial.egg-info/top_level.txt
+[2.037s] reading manifest file '../../build/asbir_serial/asbir_serial.egg-info/SOURCES.txt'
+[2.038s] writing manifest file '../../build/asbir_serial/asbir_serial.egg-info/SOURCES.txt'
+[2.038s] running build
+[2.038s] running build_py
+[2.039s] running install
+[2.039s] running install_lib
+[2.040s] running install_data
+[2.041s] running install_egg_info
+[2.042s] removing '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_serial/lib/python3.8/site-packages/asbir_serial-0.0.0-py3.8.egg-info' (and everything under it)
+[2.042s] Copying ../../build/asbir_serial/asbir_serial.egg-info to /home/aralab/ASBIR/ASBIR-ROS2/install/asbir_serial/lib/python3.8/site-packages/asbir_serial-0.0.0-py3.8.egg-info
+[2.043s] running install_scripts
+[2.057s] Installing serialComm script to /home/aralab/ASBIR/ASBIR-ROS2/install/asbir_serial/lib/asbir_serial
+[2.058s] writing list of installed files to '/home/aralab/ASBIR/ASBIR-ROS2/build/asbir_serial/install.log'
+[2.099s] Invoked command in '/home/aralab/ASBIR/ASBIR-ROS2/src/asbir_serial' returned '0': PYTHONPATH=/home/aralab/ASBIR/ASBIR-ROS2/build/asbir_serial/prefix_override:/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_serial/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/asbir_serial build --build-base /home/aralab/ASBIR/ASBIR-ROS2/build/asbir_serial/build install --record /home/aralab/ASBIR/ASBIR-ROS2/build/asbir_serial/install.log --install-scripts $base/lib/asbir_serial --single-version-externally-managed

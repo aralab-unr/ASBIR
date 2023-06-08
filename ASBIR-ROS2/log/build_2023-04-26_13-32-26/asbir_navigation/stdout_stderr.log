@@ -1,0 +1,35 @@
+running egg_info
+writing ../../build/asbir_navigation/asbir_navigation.egg-info/PKG-INFO
+writing dependency_links to ../../build/asbir_navigation/asbir_navigation.egg-info/dependency_links.txt
+writing entry points to ../../build/asbir_navigation/asbir_navigation.egg-info/entry_points.txt
+writing requirements to ../../build/asbir_navigation/asbir_navigation.egg-info/requires.txt
+writing top-level names to ../../build/asbir_navigation/asbir_navigation.egg-info/top_level.txt
+reading manifest file '../../build/asbir_navigation/asbir_navigation.egg-info/SOURCES.txt'
+writing manifest file '../../build/asbir_navigation/asbir_navigation.egg-info/SOURCES.txt'
+running build
+running build_py
+copying asbir_navigation/buildBestPath.py -> /home/aralab/ASBIR/ASBIR-ROS2/build/asbir_navigation/build/lib/asbir_navigation
+copying asbir_navigation/potentialField.py -> /home/aralab/ASBIR/ASBIR-ROS2/build/asbir_navigation/build/lib/asbir_navigation
+running install
+running install_lib
+copying /home/aralab/ASBIR/ASBIR-ROS2/build/asbir_navigation/build/lib/asbir_navigation/buildBestPath.py -> /home/aralab/ASBIR/ASBIR-ROS2/install/asbir_navigation/lib/python3.8/site-packages/asbir_navigation
+copying /home/aralab/ASBIR/ASBIR-ROS2/build/asbir_navigation/build/lib/asbir_navigation/potentialField.py -> /home/aralab/ASBIR/ASBIR-ROS2/install/asbir_navigation/lib/python3.8/site-packages/asbir_navigation
+byte-compiling /home/aralab/ASBIR/ASBIR-ROS2/install/asbir_navigation/lib/python3.8/site-packages/asbir_navigation/buildBestPath.py to buildBestPath.cpython-38.pyc
+byte-compiling /home/aralab/ASBIR/ASBIR-ROS2/install/asbir_navigation/lib/python3.8/site-packages/asbir_navigation/potentialField.py to potentialField.cpython-38.pyc
+running install_data
+running install_egg_info
+removing '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_navigation/lib/python3.8/site-packages/asbir_navigation-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/asbir_navigation/asbir_navigation.egg-info to /home/aralab/ASBIR/ASBIR-ROS2/install/asbir_navigation/lib/python3.8/site-packages/asbir_navigation-0.0.0-py3.8.egg-info
+running install_scripts
+Installing AlignAprilTag script to /home/aralab/ASBIR/ASBIR-ROS2/install/asbir_navigation/lib/asbir_navigation
+Installing AlignStructure script to /home/aralab/ASBIR/ASBIR-ROS2/install/asbir_navigation/lib/asbir_navigation
+Installing BuildBestPath script to /home/aralab/ASBIR/ASBIR-ROS2/install/asbir_navigation/lib/asbir_navigation
+Installing FrameTest script to /home/aralab/ASBIR/ASBIR-ROS2/install/asbir_navigation/lib/asbir_navigation
+Installing GraphTest script to /home/aralab/ASBIR/ASBIR-ROS2/install/asbir_navigation/lib/asbir_navigation
+Installing ModelTest script to /home/aralab/ASBIR/ASBIR-ROS2/install/asbir_navigation/lib/asbir_navigation
+Installing PathController script to /home/aralab/ASBIR/ASBIR-ROS2/install/asbir_navigation/lib/asbir_navigation
+Installing PointPub script to /home/aralab/ASBIR/ASBIR-ROS2/install/asbir_navigation/lib/asbir_navigation
+Installing PotentialField script to /home/aralab/ASBIR/ASBIR-ROS2/install/asbir_navigation/lib/asbir_navigation
+Installing ProcessMesh script to /home/aralab/ASBIR/ASBIR-ROS2/install/asbir_navigation/lib/asbir_navigation
+Installing SetZero script to /home/aralab/ASBIR/ASBIR-ROS2/install/asbir_navigation/lib/asbir_navigation
+writing list of installed files to '/home/aralab/ASBIR/ASBIR-ROS2/build/asbir_navigation/install.log'

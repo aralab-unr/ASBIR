@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+asbir_image/__init__.py
+asbir_image/asbirCam_pub.py
+build/asbir_image/asbir_image.egg-info/PKG-INFO
+build/asbir_image/asbir_image.egg-info/SOURCES.txt
+build/asbir_image/asbir_image.egg-info/dependency_links.txt
+build/asbir_image/asbir_image.egg-info/entry_points.txt
+build/asbir_image/asbir_image.egg-info/requires.txt
+build/asbir_image/asbir_image.egg-info/top_level.txt
+build/asbir_image/asbir_image.egg-info/zip-safe
+resource/asbir_image
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

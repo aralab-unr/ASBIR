@@ -1,0 +1,5 @@
+  File "/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_navigation/lib/python3.8/site-packages/asbir_navigation/buildBestPath.py", line 233
+    pathTransforms =
+                    ^
+SyntaxError: invalid syntax
+

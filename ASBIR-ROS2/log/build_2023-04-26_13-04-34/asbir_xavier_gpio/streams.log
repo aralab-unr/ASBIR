@@ -1,0 +1,21 @@
+[1.939s] Invoking command in '/home/aralab/ASBIR/ASBIR-ROS2/src/asbir_xavier_gpio': PYTHONPATH=/home/aralab/ASBIR/ASBIR-ROS2/build/asbir_xavier_gpio/prefix_override:/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_xavier_gpio/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/asbir_xavier_gpio build --build-base /home/aralab/ASBIR/ASBIR-ROS2/build/asbir_xavier_gpio/build install --record /home/aralab/ASBIR/ASBIR-ROS2/build/asbir_xavier_gpio/install.log --install-scripts $base/lib/asbir_xavier_gpio --single-version-externally-managed
+[2.198s] running egg_info
+[2.199s] writing ../../build/asbir_xavier_gpio/asbir_xavier_gpio.egg-info/PKG-INFO
+[2.199s] writing dependency_links to ../../build/asbir_xavier_gpio/asbir_xavier_gpio.egg-info/dependency_links.txt
+[2.199s] writing entry points to ../../build/asbir_xavier_gpio/asbir_xavier_gpio.egg-info/entry_points.txt
+[2.200s] writing requirements to ../../build/asbir_xavier_gpio/asbir_xavier_gpio.egg-info/requires.txt
+[2.200s] writing top-level names to ../../build/asbir_xavier_gpio/asbir_xavier_gpio.egg-info/top_level.txt
+[2.254s] reading manifest file '../../build/asbir_xavier_gpio/asbir_xavier_gpio.egg-info/SOURCES.txt'
+[2.258s] writing manifest file '../../build/asbir_xavier_gpio/asbir_xavier_gpio.egg-info/SOURCES.txt'
+[2.259s] running build
+[2.259s] running build_py
+[2.260s] running install
+[2.260s] running install_lib
+[2.260s] running install_data
+[2.261s] running install_egg_info
+[2.262s] removing '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_xavier_gpio/lib/python3.8/site-packages/asbir_xavier_gpio-0.0.0-py3.8.egg-info' (and everything under it)
+[2.263s] Copying ../../build/asbir_xavier_gpio/asbir_xavier_gpio.egg-info to /home/aralab/ASBIR/ASBIR-ROS2/install/asbir_xavier_gpio/lib/python3.8/site-packages/asbir_xavier_gpio-0.0.0-py3.8.egg-info
+[2.264s] running install_scripts
+[2.292s] Installing xavierGPIO script to /home/aralab/ASBIR/ASBIR-ROS2/install/asbir_xavier_gpio/lib/asbir_xavier_gpio
+[2.292s] writing list of installed files to '/home/aralab/ASBIR/ASBIR-ROS2/build/asbir_xavier_gpio/install.log'
+[2.329s] Invoked command in '/home/aralab/ASBIR/ASBIR-ROS2/src/asbir_xavier_gpio' returned '0': PYTHONPATH=/home/aralab/ASBIR/ASBIR-ROS2/build/asbir_xavier_gpio/prefix_override:/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_xavier_gpio/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/asbir_xavier_gpio build --build-base /home/aralab/ASBIR/ASBIR-ROS2/build/asbir_xavier_gpio/build install --record /home/aralab/ASBIR/ASBIR-ROS2/build/asbir_xavier_gpio/install.log --install-scripts $base/lib/asbir_xavier_gpio --single-version-externally-managed

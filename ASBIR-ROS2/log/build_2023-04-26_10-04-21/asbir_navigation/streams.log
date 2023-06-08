@@ -1,0 +1,86 @@
+[1.793s] Invoking command in '/home/aralab/ASBIR/ASBIR-ROS2/src/asbir_navigation': PYTHONPATH=/home/aralab/ASBIR/ASBIR-ROS2/build/asbir_navigation/prefix_override:/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_navigation/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/asbir_navigation build --build-base /home/aralab/ASBIR/ASBIR-ROS2/build/asbir_navigation/build install --record /home/aralab/ASBIR/ASBIR-ROS2/build/asbir_navigation/install.log --install-scripts $base/lib/asbir_navigation --single-version-externally-managed
+[2.011s] running egg_info
+[2.011s] creating ../../build/asbir_navigation/asbir_navigation.egg-info
+[2.011s] writing ../../build/asbir_navigation/asbir_navigation.egg-info/PKG-INFO
+[2.012s] writing dependency_links to ../../build/asbir_navigation/asbir_navigation.egg-info/dependency_links.txt
+[2.012s] writing entry points to ../../build/asbir_navigation/asbir_navigation.egg-info/entry_points.txt
+[2.012s] writing requirements to ../../build/asbir_navigation/asbir_navigation.egg-info/requires.txt
+[2.012s] writing top-level names to ../../build/asbir_navigation/asbir_navigation.egg-info/top_level.txt
+[2.013s] writing manifest file '../../build/asbir_navigation/asbir_navigation.egg-info/SOURCES.txt'
+[2.046s] reading manifest file '../../build/asbir_navigation/asbir_navigation.egg-info/SOURCES.txt'
+[2.046s] writing manifest file '../../build/asbir_navigation/asbir_navigation.egg-info/SOURCES.txt'
+[2.047s] running build
+[2.047s] running build_py
+[2.047s] creating /home/aralab/ASBIR/ASBIR-ROS2/build/asbir_navigation/build
+[2.047s] creating /home/aralab/ASBIR/ASBIR-ROS2/build/asbir_navigation/build/lib
+[2.047s] creating /home/aralab/ASBIR/ASBIR-ROS2/build/asbir_navigation/build/lib/asbir_navigation
+[2.047s] copying asbir_navigation/alignStructure.py -> /home/aralab/ASBIR/ASBIR-ROS2/build/asbir_navigation/build/lib/asbir_navigation
+[2.047s] copying asbir_navigation/buildBestPath.py -> /home/aralab/ASBIR/ASBIR-ROS2/build/asbir_navigation/build/lib/asbir_navigation
+[2.048s] copying asbir_navigation/alignApriltag.py -> /home/aralab/ASBIR/ASBIR-ROS2/build/asbir_navigation/build/lib/asbir_navigation
+[2.048s] copying asbir_navigation/processMesh.py -> /home/aralab/ASBIR/ASBIR-ROS2/build/asbir_navigation/build/lib/asbir_navigation
+[2.048s] copying asbir_navigation/servoSetZero.py -> /home/aralab/ASBIR/ASBIR-ROS2/build/asbir_navigation/build/lib/asbir_navigation
+[2.048s] copying asbir_navigation/potentialField.py -> /home/aralab/ASBIR/ASBIR-ROS2/build/asbir_navigation/build/lib/asbir_navigation
+[2.048s] copying asbir_navigation/classes.py -> /home/aralab/ASBIR/ASBIR-ROS2/build/asbir_navigation/build/lib/asbir_navigation
+[2.048s] copying asbir_navigation/transformations.py -> /home/aralab/ASBIR/ASBIR-ROS2/build/asbir_navigation/build/lib/asbir_navigation
+[2.048s] copying asbir_navigation/__init__.py -> /home/aralab/ASBIR/ASBIR-ROS2/build/asbir_navigation/build/lib/asbir_navigation
+[2.049s] copying asbir_navigation/transformations_test.py -> /home/aralab/ASBIR/ASBIR-ROS2/build/asbir_navigation/build/lib/asbir_navigation
+[2.049s] copying asbir_navigation/modelTest.py -> /home/aralab/ASBIR/ASBIR-ROS2/build/asbir_navigation/build/lib/asbir_navigation
+[2.049s] copying asbir_navigation/aStar.py -> /home/aralab/ASBIR/ASBIR-ROS2/build/asbir_navigation/build/lib/asbir_navigation
+[2.051s] copying asbir_navigation/pointPub.py -> /home/aralab/ASBIR/ASBIR-ROS2/build/asbir_navigation/build/lib/asbir_navigation
+[2.051s] copying asbir_navigation/pathController.py -> /home/aralab/ASBIR/ASBIR-ROS2/build/asbir_navigation/build/lib/asbir_navigation
+[2.051s] copying asbir_navigation/graphTest.py -> /home/aralab/ASBIR/ASBIR-ROS2/build/asbir_navigation/build/lib/asbir_navigation
+[2.052s] running install
+[2.053s] running install_lib
+[2.053s] creating /home/aralab/ASBIR/ASBIR-ROS2/install/asbir_navigation/lib/python3.8/site-packages/asbir_navigation
+[2.053s] copying /home/aralab/ASBIR/ASBIR-ROS2/build/asbir_navigation/build/lib/asbir_navigation/alignStructure.py -> /home/aralab/ASBIR/ASBIR-ROS2/install/asbir_navigation/lib/python3.8/site-packages/asbir_navigation
+[2.053s] copying /home/aralab/ASBIR/ASBIR-ROS2/build/asbir_navigation/build/lib/asbir_navigation/buildBestPath.py -> /home/aralab/ASBIR/ASBIR-ROS2/install/asbir_navigation/lib/python3.8/site-packages/asbir_navigation
+[2.053s] copying /home/aralab/ASBIR/ASBIR-ROS2/build/asbir_navigation/build/lib/asbir_navigation/alignApriltag.py -> /home/aralab/ASBIR/ASBIR-ROS2/install/asbir_navigation/lib/python3.8/site-packages/asbir_navigation
+[2.054s] copying /home/aralab/ASBIR/ASBIR-ROS2/build/asbir_navigation/build/lib/asbir_navigation/processMesh.py -> /home/aralab/ASBIR/ASBIR-ROS2/install/asbir_navigation/lib/python3.8/site-packages/asbir_navigation
+[2.054s] copying /home/aralab/ASBIR/ASBIR-ROS2/build/asbir_navigation/build/lib/asbir_navigation/servoSetZero.py -> /home/aralab/ASBIR/ASBIR-ROS2/install/asbir_navigation/lib/python3.8/site-packages/asbir_navigation
+[2.054s] copying /home/aralab/ASBIR/ASBIR-ROS2/build/asbir_navigation/build/lib/asbir_navigation/potentialField.py -> /home/aralab/ASBIR/ASBIR-ROS2/install/asbir_navigation/lib/python3.8/site-packages/asbir_navigation
+[2.054s] copying /home/aralab/ASBIR/ASBIR-ROS2/build/asbir_navigation/build/lib/asbir_navigation/classes.py -> /home/aralab/ASBIR/ASBIR-ROS2/install/asbir_navigation/lib/python3.8/site-packages/asbir_navigation
+[2.054s] copying /home/aralab/ASBIR/ASBIR-ROS2/build/asbir_navigation/build/lib/asbir_navigation/transformations.py -> /home/aralab/ASBIR/ASBIR-ROS2/install/asbir_navigation/lib/python3.8/site-packages/asbir_navigation
+[2.054s] copying /home/aralab/ASBIR/ASBIR-ROS2/build/asbir_navigation/build/lib/asbir_navigation/__init__.py -> /home/aralab/ASBIR/ASBIR-ROS2/install/asbir_navigation/lib/python3.8/site-packages/asbir_navigation
+[2.054s] copying /home/aralab/ASBIR/ASBIR-ROS2/build/asbir_navigation/build/lib/asbir_navigation/transformations_test.py -> /home/aralab/ASBIR/ASBIR-ROS2/install/asbir_navigation/lib/python3.8/site-packages/asbir_navigation
+[2.055s] copying /home/aralab/ASBIR/ASBIR-ROS2/build/asbir_navigation/build/lib/asbir_navigation/modelTest.py -> /home/aralab/ASBIR/ASBIR-ROS2/install/asbir_navigation/lib/python3.8/site-packages/asbir_navigation
+[2.055s] copying /home/aralab/ASBIR/ASBIR-ROS2/build/asbir_navigation/build/lib/asbir_navigation/aStar.py -> /home/aralab/ASBIR/ASBIR-ROS2/install/asbir_navigation/lib/python3.8/site-packages/asbir_navigation
+[2.055s] copying /home/aralab/ASBIR/ASBIR-ROS2/build/asbir_navigation/build/lib/asbir_navigation/pointPub.py -> /home/aralab/ASBIR/ASBIR-ROS2/install/asbir_navigation/lib/python3.8/site-packages/asbir_navigation
+[2.055s] copying /home/aralab/ASBIR/ASBIR-ROS2/build/asbir_navigation/build/lib/asbir_navigation/pathController.py -> /home/aralab/ASBIR/ASBIR-ROS2/install/asbir_navigation/lib/python3.8/site-packages/asbir_navigation
+[2.055s] copying /home/aralab/ASBIR/ASBIR-ROS2/build/asbir_navigation/build/lib/asbir_navigation/graphTest.py -> /home/aralab/ASBIR/ASBIR-ROS2/install/asbir_navigation/lib/python3.8/site-packages/asbir_navigation
+[2.055s] byte-compiling /home/aralab/ASBIR/ASBIR-ROS2/install/asbir_navigation/lib/python3.8/site-packages/asbir_navigation/alignStructure.py to alignStructure.cpython-38.pyc
+[2.056s] byte-compiling /home/aralab/ASBIR/ASBIR-ROS2/install/asbir_navigation/lib/python3.8/site-packages/asbir_navigation/buildBestPath.py to buildBestPath.cpython-38.pyc
+[2.060s] byte-compiling /home/aralab/ASBIR/ASBIR-ROS2/install/asbir_navigation/lib/python3.8/site-packages/asbir_navigation/alignApriltag.py to alignApriltag.cpython-38.pyc
+[2.060s] byte-compiling /home/aralab/ASBIR/ASBIR-ROS2/install/asbir_navigation/lib/python3.8/site-packages/asbir_navigation/processMesh.py to processMesh.cpython-38.pyc
+[2.061s] byte-compiling /home/aralab/ASBIR/ASBIR-ROS2/install/asbir_navigation/lib/python3.8/site-packages/asbir_navigation/servoSetZero.py to servoSetZero.cpython-38.pyc
+[2.061s] byte-compiling /home/aralab/ASBIR/ASBIR-ROS2/install/asbir_navigation/lib/python3.8/site-packages/asbir_navigation/potentialField.py to potentialField.cpython-38.pyc
+[2.062s] byte-compiling /home/aralab/ASBIR/ASBIR-ROS2/install/asbir_navigation/lib/python3.8/site-packages/asbir_navigation/classes.py to classes.cpython-38.pyc
+[2.063s] byte-compiling /home/aralab/ASBIR/ASBIR-ROS2/install/asbir_navigation/lib/python3.8/site-packages/asbir_navigation/transformations.py to transformations.cpython-38.pyc
+[2.064s] byte-compiling /home/aralab/ASBIR/ASBIR-ROS2/install/asbir_navigation/lib/python3.8/site-packages/asbir_navigation/__init__.py to __init__.cpython-38.pyc
+[2.064s] byte-compiling /home/aralab/ASBIR/ASBIR-ROS2/install/asbir_navigation/lib/python3.8/site-packages/asbir_navigation/transformations_test.py to transformations_test.cpython-38.pyc
+[2.064s] byte-compiling /home/aralab/ASBIR/ASBIR-ROS2/install/asbir_navigation/lib/python3.8/site-packages/asbir_navigation/modelTest.py to modelTest.cpython-38.pyc
+[2.065s] byte-compiling /home/aralab/ASBIR/ASBIR-ROS2/install/asbir_navigation/lib/python3.8/site-packages/asbir_navigation/aStar.py to aStar.cpython-38.pyc
+[2.065s] byte-compiling /home/aralab/ASBIR/ASBIR-ROS2/install/asbir_navigation/lib/python3.8/site-packages/asbir_navigation/pointPub.py to pointPub.cpython-38.pyc
+[2.066s] byte-compiling /home/aralab/ASBIR/ASBIR-ROS2/install/asbir_navigation/lib/python3.8/site-packages/asbir_navigation/pathController.py to pathController.cpython-38.pyc
+[2.066s] byte-compiling /home/aralab/ASBIR/ASBIR-ROS2/install/asbir_navigation/lib/python3.8/site-packages/asbir_navigation/graphTest.py to graphTest.cpython-38.pyc
+[2.068s] running install_data
+[2.068s] creating /home/aralab/ASBIR/ASBIR-ROS2/install/asbir_navigation/share/ament_index
+[2.069s] creating /home/aralab/ASBIR/ASBIR-ROS2/install/asbir_navigation/share/ament_index/resource_index
+[2.069s] creating /home/aralab/ASBIR/ASBIR-ROS2/install/asbir_navigation/share/ament_index/resource_index/packages
+[2.069s] copying resource/asbir_navigation -> /home/aralab/ASBIR/ASBIR-ROS2/install/asbir_navigation/share/ament_index/resource_index/packages
+[2.069s] copying package.xml -> /home/aralab/ASBIR/ASBIR-ROS2/install/asbir_navigation/share/asbir_navigation
+[2.069s] running install_egg_info
+[2.070s] Copying ../../build/asbir_navigation/asbir_navigation.egg-info to /home/aralab/ASBIR/ASBIR-ROS2/install/asbir_navigation/lib/python3.8/site-packages/asbir_navigation-0.0.0-py3.8.egg-info
+[2.071s] running install_scripts
+[2.087s] Installing AlignAprilTag script to /home/aralab/ASBIR/ASBIR-ROS2/install/asbir_navigation/lib/asbir_navigation
+[2.088s] Installing AlignStructure script to /home/aralab/ASBIR/ASBIR-ROS2/install/asbir_navigation/lib/asbir_navigation
+[2.088s] Installing BuildBestPath script to /home/aralab/ASBIR/ASBIR-ROS2/install/asbir_navigation/lib/asbir_navigation
+[2.089s] Installing FrameTest script to /home/aralab/ASBIR/ASBIR-ROS2/install/asbir_navigation/lib/asbir_navigation
+[2.092s] Installing GraphTest script to /home/aralab/ASBIR/ASBIR-ROS2/install/asbir_navigation/lib/asbir_navigation
+[2.092s] Installing ModelTest script to /home/aralab/ASBIR/ASBIR-ROS2/install/asbir_navigation/lib/asbir_navigation
+[2.092s] Installing PathController script to /home/aralab/ASBIR/ASBIR-ROS2/install/asbir_navigation/lib/asbir_navigation
+[2.093s] Installing PointPub script to /home/aralab/ASBIR/ASBIR-ROS2/install/asbir_navigation/lib/asbir_navigation
+[2.093s] Installing PotentialField script to /home/aralab/ASBIR/ASBIR-ROS2/install/asbir_navigation/lib/asbir_navigation
+[2.093s] Installing ProcessMesh script to /home/aralab/ASBIR/ASBIR-ROS2/install/asbir_navigation/lib/asbir_navigation
+[2.094s] Installing SetZero script to /home/aralab/ASBIR/ASBIR-ROS2/install/asbir_navigation/lib/asbir_navigation
+[2.094s] writing list of installed files to '/home/aralab/ASBIR/ASBIR-ROS2/build/asbir_navigation/install.log'
+[2.118s] Invoked command in '/home/aralab/ASBIR/ASBIR-ROS2/src/asbir_navigation' returned '0': PYTHONPATH=/home/aralab/ASBIR/ASBIR-ROS2/build/asbir_navigation/prefix_override:/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_navigation/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/asbir_navigation build --build-base /home/aralab/ASBIR/ASBIR-ROS2/build/asbir_navigation/build install --record /home/aralab/ASBIR/ASBIR-ROS2/build/asbir_navigation/install.log --install-scripts $base/lib/asbir_navigation --single-version-externally-managed

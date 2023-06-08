@@ -1,0 +1,3 @@
+[console_scripts]
+xavierGPIO = asbir_xavier_gpio.servoControl:main
+

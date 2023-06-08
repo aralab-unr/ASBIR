@@ -1,0 +1,442 @@
+[0.251s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.251s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f673a6c46d0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=12, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f673a6c46d0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f673a6c4c10>)
+[0.273s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.273s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.273s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.273s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.273s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.273s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.273s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/aralab/ASBIR/ASBIR-ROS2'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/asbir_image) by extensions ['ignore', 'ignore_ament_install']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/asbir_image) by extension 'ignore'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/asbir_image) by extension 'ignore_ament_install'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/asbir_image) by extensions ['colcon_pkg']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/asbir_image) by extension 'colcon_pkg'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/asbir_image) by extensions ['colcon_meta']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/asbir_image) by extension 'colcon_meta'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/asbir_image) by extensions ['ros']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/asbir_image) by extension 'ros'
+[0.292s] DEBUG:colcon.colcon_core.package_identification:Package 'src/asbir_image' with type 'ros.ament_python' and name 'asbir_image'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/asbir_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/asbir_navigation) by extension 'ignore'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/asbir_navigation) by extension 'ignore_ament_install'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/asbir_navigation) by extensions ['colcon_pkg']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/asbir_navigation) by extension 'colcon_pkg'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/asbir_navigation) by extensions ['colcon_meta']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/asbir_navigation) by extension 'colcon_meta'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/asbir_navigation) by extensions ['ros']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/asbir_navigation) by extension 'ros'
+[0.293s] DEBUG:colcon.colcon_core.package_identification:Package 'src/asbir_navigation' with type 'ros.ament_python' and name 'asbir_navigation'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/asbir_panda) by extensions ['ignore', 'ignore_ament_install']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/asbir_panda) by extension 'ignore'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/asbir_panda) by extension 'ignore_ament_install'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/asbir_panda) by extensions ['colcon_pkg']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/asbir_panda) by extension 'colcon_pkg'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/asbir_panda) by extensions ['colcon_meta']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/asbir_panda) by extension 'colcon_meta'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/asbir_panda) by extensions ['ros']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/asbir_panda) by extension 'ros'
+[0.293s] DEBUG:colcon.colcon_core.package_identification:Package 'src/asbir_panda' with type 'ros.ament_python' and name 'asbir_panda'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/asbir_rc) by extensions ['ignore', 'ignore_ament_install']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/asbir_rc) by extension 'ignore'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/asbir_rc) by extension 'ignore_ament_install'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/asbir_rc) by extensions ['colcon_pkg']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/asbir_rc) by extension 'colcon_pkg'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/asbir_rc) by extensions ['colcon_meta']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/asbir_rc) by extension 'colcon_meta'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/asbir_rc) by extensions ['ros']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/asbir_rc) by extension 'ros'
+[0.294s] DEBUG:colcon.colcon_core.package_identification:Package 'src/asbir_rc' with type 'ros.ament_python' and name 'asbir_rc'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/asbir_serial) by extensions ['ignore', 'ignore_ament_install']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/asbir_serial) by extension 'ignore'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/asbir_serial) by extension 'ignore_ament_install'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/asbir_serial) by extensions ['colcon_pkg']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/asbir_serial) by extension 'colcon_pkg'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/asbir_serial) by extensions ['colcon_meta']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/asbir_serial) by extension 'colcon_meta'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/asbir_serial) by extensions ['ros']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/asbir_serial) by extension 'ros'
+[0.295s] DEBUG:colcon.colcon_core.package_identification:Package 'src/asbir_serial' with type 'ros.ament_python' and name 'asbir_serial'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/asbir_status) by extensions ['ignore', 'ignore_ament_install']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/asbir_status) by extension 'ignore'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/asbir_status) by extension 'ignore_ament_install'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/asbir_status) by extensions ['colcon_pkg']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/asbir_status) by extension 'colcon_pkg'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/asbir_status) by extensions ['colcon_meta']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/asbir_status) by extension 'colcon_meta'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/asbir_status) by extensions ['ros']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/asbir_status) by extension 'ros'
+[0.295s] DEBUG:colcon.colcon_core.package_identification:Package 'src/asbir_status' with type 'ros.ament_python' and name 'asbir_status'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/asbir_xavier_gpio) by extensions ['ignore', 'ignore_ament_install']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/asbir_xavier_gpio) by extension 'ignore'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/asbir_xavier_gpio) by extension 'ignore_ament_install'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/asbir_xavier_gpio) by extensions ['colcon_pkg']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/asbir_xavier_gpio) by extension 'colcon_pkg'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/asbir_xavier_gpio) by extensions ['colcon_meta']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/asbir_xavier_gpio) by extension 'colcon_meta'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/asbir_xavier_gpio) by extensions ['ros']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/asbir_xavier_gpio) by extension 'ros'
+[0.296s] DEBUG:colcon.colcon_core.package_identification:Package 'src/asbir_xavier_gpio' with type 'ros.ament_python' and name 'asbir_xavier_gpio'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/objects) by extensions ['ignore', 'ignore_ament_install']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/objects) by extension 'ignore'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/objects) by extension 'ignore_ament_install'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/objects) by extensions ['colcon_pkg']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/objects) by extension 'colcon_pkg'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/objects) by extensions ['colcon_meta']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/objects) by extension 'colcon_meta'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/objects) by extensions ['ros']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/objects) by extension 'ros'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/objects) by extensions ['cmake', 'python']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/objects) by extension 'cmake'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/objects) by extension 'python'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/objects) by extensions ['python_setup_py']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/objects) by extension 'python_setup_py'
+[0.297s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.297s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.297s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.297s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.297s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.313s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.313s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.316s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/aralab/ros_foxy_pkgs/install
+[0.316s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/aralab/ASBIR/ASBIR-ROS2/install
+[0.318s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/foxy
+[0.319s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.374s] Level 5:colcon.colcon_core.verb:set package 'asbir_image' build argument 'cmake_args' from command line to 'None'
+[0.374s] Level 5:colcon.colcon_core.verb:set package 'asbir_image' build argument 'cmake_target' from command line to 'None'
+[0.374s] Level 5:colcon.colcon_core.verb:set package 'asbir_image' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.374s] Level 5:colcon.colcon_core.verb:set package 'asbir_image' build argument 'cmake_clean_cache' from command line to 'False'
+[0.374s] Level 5:colcon.colcon_core.verb:set package 'asbir_image' build argument 'cmake_clean_first' from command line to 'False'
+[0.374s] Level 5:colcon.colcon_core.verb:set package 'asbir_image' build argument 'cmake_force_configure' from command line to 'False'
+[0.374s] Level 5:colcon.colcon_core.verb:set package 'asbir_image' build argument 'ament_cmake_args' from command line to 'None'
+[0.374s] Level 5:colcon.colcon_core.verb:set package 'asbir_image' build argument 'catkin_cmake_args' from command line to 'None'
+[0.374s] Level 5:colcon.colcon_core.verb:set package 'asbir_image' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.374s] DEBUG:colcon.colcon_core.verb:Building package 'asbir_image' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/aralab/ASBIR/ASBIR-ROS2/build/asbir_image', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_image', 'merge_install': False, 'path': '/home/aralab/ASBIR/ASBIR-ROS2/src/asbir_image', 'symlink_install': False, 'test_result_base': None}
+[0.375s] Level 5:colcon.colcon_core.verb:set package 'asbir_navigation' build argument 'cmake_args' from command line to 'None'
+[0.375s] Level 5:colcon.colcon_core.verb:set package 'asbir_navigation' build argument 'cmake_target' from command line to 'None'
+[0.375s] Level 5:colcon.colcon_core.verb:set package 'asbir_navigation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.375s] Level 5:colcon.colcon_core.verb:set package 'asbir_navigation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.375s] Level 5:colcon.colcon_core.verb:set package 'asbir_navigation' build argument 'cmake_clean_first' from command line to 'False'
+[0.375s] Level 5:colcon.colcon_core.verb:set package 'asbir_navigation' build argument 'cmake_force_configure' from command line to 'False'
+[0.375s] Level 5:colcon.colcon_core.verb:set package 'asbir_navigation' build argument 'ament_cmake_args' from command line to 'None'
+[0.375s] Level 5:colcon.colcon_core.verb:set package 'asbir_navigation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.375s] Level 5:colcon.colcon_core.verb:set package 'asbir_navigation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.375s] DEBUG:colcon.colcon_core.verb:Building package 'asbir_navigation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/aralab/ASBIR/ASBIR-ROS2/build/asbir_navigation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_navigation', 'merge_install': False, 'path': '/home/aralab/ASBIR/ASBIR-ROS2/src/asbir_navigation', 'symlink_install': False, 'test_result_base': None}
+[0.376s] Level 5:colcon.colcon_core.verb:set package 'asbir_panda' build argument 'cmake_args' from command line to 'None'
+[0.376s] Level 5:colcon.colcon_core.verb:set package 'asbir_panda' build argument 'cmake_target' from command line to 'None'
+[0.376s] Level 5:colcon.colcon_core.verb:set package 'asbir_panda' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.376s] Level 5:colcon.colcon_core.verb:set package 'asbir_panda' build argument 'cmake_clean_cache' from command line to 'False'
+[0.376s] Level 5:colcon.colcon_core.verb:set package 'asbir_panda' build argument 'cmake_clean_first' from command line to 'False'
+[0.376s] Level 5:colcon.colcon_core.verb:set package 'asbir_panda' build argument 'cmake_force_configure' from command line to 'False'
+[0.376s] Level 5:colcon.colcon_core.verb:set package 'asbir_panda' build argument 'ament_cmake_args' from command line to 'None'
+[0.376s] Level 5:colcon.colcon_core.verb:set package 'asbir_panda' build argument 'catkin_cmake_args' from command line to 'None'
+[0.376s] Level 5:colcon.colcon_core.verb:set package 'asbir_panda' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.376s] DEBUG:colcon.colcon_core.verb:Building package 'asbir_panda' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/aralab/ASBIR/ASBIR-ROS2/build/asbir_panda', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_panda', 'merge_install': False, 'path': '/home/aralab/ASBIR/ASBIR-ROS2/src/asbir_panda', 'symlink_install': False, 'test_result_base': None}
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'asbir_rc' build argument 'cmake_args' from command line to 'None'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'asbir_rc' build argument 'cmake_target' from command line to 'None'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'asbir_rc' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'asbir_rc' build argument 'cmake_clean_cache' from command line to 'False'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'asbir_rc' build argument 'cmake_clean_first' from command line to 'False'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'asbir_rc' build argument 'cmake_force_configure' from command line to 'False'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'asbir_rc' build argument 'ament_cmake_args' from command line to 'None'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'asbir_rc' build argument 'catkin_cmake_args' from command line to 'None'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'asbir_rc' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.377s] DEBUG:colcon.colcon_core.verb:Building package 'asbir_rc' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/aralab/ASBIR/ASBIR-ROS2/build/asbir_rc', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_rc', 'merge_install': False, 'path': '/home/aralab/ASBIR/ASBIR-ROS2/src/asbir_rc', 'symlink_install': False, 'test_result_base': None}
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'asbir_serial' build argument 'cmake_args' from command line to 'None'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'asbir_serial' build argument 'cmake_target' from command line to 'None'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'asbir_serial' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'asbir_serial' build argument 'cmake_clean_cache' from command line to 'False'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'asbir_serial' build argument 'cmake_clean_first' from command line to 'False'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'asbir_serial' build argument 'cmake_force_configure' from command line to 'False'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'asbir_serial' build argument 'ament_cmake_args' from command line to 'None'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'asbir_serial' build argument 'catkin_cmake_args' from command line to 'None'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'asbir_serial' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.378s] DEBUG:colcon.colcon_core.verb:Building package 'asbir_serial' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/aralab/ASBIR/ASBIR-ROS2/build/asbir_serial', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_serial', 'merge_install': False, 'path': '/home/aralab/ASBIR/ASBIR-ROS2/src/asbir_serial', 'symlink_install': False, 'test_result_base': None}
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'asbir_status' build argument 'cmake_args' from command line to 'None'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'asbir_status' build argument 'cmake_target' from command line to 'None'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'asbir_status' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'asbir_status' build argument 'cmake_clean_cache' from command line to 'False'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'asbir_status' build argument 'cmake_clean_first' from command line to 'False'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'asbir_status' build argument 'cmake_force_configure' from command line to 'False'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'asbir_status' build argument 'ament_cmake_args' from command line to 'None'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'asbir_status' build argument 'catkin_cmake_args' from command line to 'None'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'asbir_status' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.379s] DEBUG:colcon.colcon_core.verb:Building package 'asbir_status' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/aralab/ASBIR/ASBIR-ROS2/build/asbir_status', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_status', 'merge_install': False, 'path': '/home/aralab/ASBIR/ASBIR-ROS2/src/asbir_status', 'symlink_install': False, 'test_result_base': None}
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'asbir_xavier_gpio' build argument 'cmake_args' from command line to 'None'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'asbir_xavier_gpio' build argument 'cmake_target' from command line to 'None'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'asbir_xavier_gpio' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'asbir_xavier_gpio' build argument 'cmake_clean_cache' from command line to 'False'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'asbir_xavier_gpio' build argument 'cmake_clean_first' from command line to 'False'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'asbir_xavier_gpio' build argument 'cmake_force_configure' from command line to 'False'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'asbir_xavier_gpio' build argument 'ament_cmake_args' from command line to 'None'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'asbir_xavier_gpio' build argument 'catkin_cmake_args' from command line to 'None'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'asbir_xavier_gpio' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.380s] DEBUG:colcon.colcon_core.verb:Building package 'asbir_xavier_gpio' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/aralab/ASBIR/ASBIR-ROS2/build/asbir_xavier_gpio', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_xavier_gpio', 'merge_install': False, 'path': '/home/aralab/ASBIR/ASBIR-ROS2/src/asbir_xavier_gpio', 'symlink_install': False, 'test_result_base': None}
+[0.380s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.383s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.383s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/aralab/ASBIR/ASBIR-ROS2/src/asbir_image' with build type 'ament_python'
+[0.383s] Level 1:colcon.colcon_core.shell:create_environment_hook('asbir_image', 'ament_prefix_path')
+[0.387s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.387s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_image/share/asbir_image/hook/ament_prefix_path.ps1'
+[0.387s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_image/share/asbir_image/hook/ament_prefix_path.dsv'
+[0.388s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_image/share/asbir_image/hook/ament_prefix_path.sh'
+[0.389s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.389s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.395s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/aralab/ASBIR/ASBIR-ROS2/src/asbir_navigation' with build type 'ament_python'
+[0.395s] Level 1:colcon.colcon_core.shell:create_environment_hook('asbir_navigation', 'ament_prefix_path')
+[0.397s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_navigation/share/asbir_navigation/hook/ament_prefix_path.ps1'
+[0.397s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_navigation/share/asbir_navigation/hook/ament_prefix_path.dsv'
+[0.398s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_navigation/share/asbir_navigation/hook/ament_prefix_path.sh'
+[0.399s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.399s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.405s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/aralab/ASBIR/ASBIR-ROS2/src/asbir_panda' with build type 'ament_python'
+[0.405s] Level 1:colcon.colcon_core.shell:create_environment_hook('asbir_panda', 'ament_prefix_path')
+[0.406s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_panda/share/asbir_panda/hook/ament_prefix_path.ps1'
+[0.407s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_panda/share/asbir_panda/hook/ament_prefix_path.dsv'
+[0.408s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_panda/share/asbir_panda/hook/ament_prefix_path.sh'
+[0.409s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.409s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.415s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/aralab/ASBIR/ASBIR-ROS2/src/asbir_rc' with build type 'ament_python'
+[0.415s] Level 1:colcon.colcon_core.shell:create_environment_hook('asbir_rc', 'ament_prefix_path')
+[0.417s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_rc/share/asbir_rc/hook/ament_prefix_path.ps1'
+[0.418s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_rc/share/asbir_rc/hook/ament_prefix_path.dsv'
+[0.418s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_rc/share/asbir_rc/hook/ament_prefix_path.sh'
+[0.419s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.419s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.426s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/aralab/ASBIR/ASBIR-ROS2/src/asbir_serial' with build type 'ament_python'
+[0.426s] Level 1:colcon.colcon_core.shell:create_environment_hook('asbir_serial', 'ament_prefix_path')
+[0.427s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_serial/share/asbir_serial/hook/ament_prefix_path.ps1'
+[0.428s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_serial/share/asbir_serial/hook/ament_prefix_path.dsv'
+[0.428s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_serial/share/asbir_serial/hook/ament_prefix_path.sh'
+[0.430s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.430s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.435s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/aralab/ASBIR/ASBIR-ROS2/src/asbir_status' with build type 'ament_python'
+[0.436s] Level 1:colcon.colcon_core.shell:create_environment_hook('asbir_status', 'ament_prefix_path')
+[0.437s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_status/share/asbir_status/hook/ament_prefix_path.ps1'
+[0.438s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_status/share/asbir_status/hook/ament_prefix_path.dsv'
+[0.438s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_status/share/asbir_status/hook/ament_prefix_path.sh'
+[0.440s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.440s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.446s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/aralab/ASBIR/ASBIR-ROS2/src/asbir_xavier_gpio' with build type 'ament_python'
+[0.446s] Level 1:colcon.colcon_core.shell:create_environment_hook('asbir_xavier_gpio', 'ament_prefix_path')
+[0.447s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_xavier_gpio/share/asbir_xavier_gpio/hook/ament_prefix_path.ps1'
+[0.448s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_xavier_gpio/share/asbir_xavier_gpio/hook/ament_prefix_path.dsv'
+[0.449s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_xavier_gpio/share/asbir_xavier_gpio/hook/ament_prefix_path.sh'
+[0.450s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.450s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.654s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/aralab/ASBIR/ASBIR-ROS2/src/asbir_image'
+[0.655s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.655s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.848s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/aralab/ASBIR/ASBIR-ROS2/src/asbir_navigation'
+[0.850s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.850s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.047s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/aralab/ASBIR/ASBIR-ROS2/src/asbir_panda'
+[1.049s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.049s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.240s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/aralab/ASBIR/ASBIR-ROS2/src/asbir_rc'
+[1.242s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.242s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.438s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/aralab/ASBIR/ASBIR-ROS2/src/asbir_serial'
+[1.439s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.439s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.636s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/aralab/ASBIR/ASBIR-ROS2/src/asbir_status'
+[1.637s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.637s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.831s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/aralab/ASBIR/ASBIR-ROS2/src/asbir_xavier_gpio'
+[1.833s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.833s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.204s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aralab/ASBIR/ASBIR-ROS2/src/asbir_image': PYTHONPATH=/home/aralab/ASBIR/ASBIR-ROS2/build/asbir_image/prefix_override:/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_image/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/asbir_image build --build-base /home/aralab/ASBIR/ASBIR-ROS2/build/asbir_image/build install --record /home/aralab/ASBIR/ASBIR-ROS2/build/asbir_image/install.log --install-scripts $base/lib/asbir_image --single-version-externally-managed
+[2.217s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aralab/ASBIR/ASBIR-ROS2/src/asbir_rc': PYTHONPATH=/home/aralab/ASBIR/ASBIR-ROS2/build/asbir_rc/prefix_override:/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_rc/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/asbir_rc build --build-base /home/aralab/ASBIR/ASBIR-ROS2/build/asbir_rc/build install --record /home/aralab/ASBIR/ASBIR-ROS2/build/asbir_rc/install.log --install-scripts $base/lib/asbir_rc --single-version-externally-managed
+[2.224s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aralab/ASBIR/ASBIR-ROS2/src/asbir_navigation': PYTHONPATH=/home/aralab/ASBIR/ASBIR-ROS2/build/asbir_navigation/prefix_override:/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_navigation/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/asbir_navigation build --build-base /home/aralab/ASBIR/ASBIR-ROS2/build/asbir_navigation/build install --record /home/aralab/ASBIR/ASBIR-ROS2/build/asbir_navigation/install.log --install-scripts $base/lib/asbir_navigation --single-version-externally-managed
+[2.230s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aralab/ASBIR/ASBIR-ROS2/src/asbir_serial': PYTHONPATH=/home/aralab/ASBIR/ASBIR-ROS2/build/asbir_serial/prefix_override:/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_serial/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/asbir_serial build --build-base /home/aralab/ASBIR/ASBIR-ROS2/build/asbir_serial/build install --record /home/aralab/ASBIR/ASBIR-ROS2/build/asbir_serial/install.log --install-scripts $base/lib/asbir_serial --single-version-externally-managed
+[2.235s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aralab/ASBIR/ASBIR-ROS2/src/asbir_status': PYTHONPATH=/home/aralab/ASBIR/ASBIR-ROS2/build/asbir_status/prefix_override:/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_status/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/asbir_status build --build-base /home/aralab/ASBIR/ASBIR-ROS2/build/asbir_status/build install --record /home/aralab/ASBIR/ASBIR-ROS2/build/asbir_status/install.log --install-scripts $base/lib/asbir_status --single-version-externally-managed
+[2.398s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aralab/ASBIR/ASBIR-ROS2/src/asbir_panda': PYTHONPATH=/home/aralab/ASBIR/ASBIR-ROS2/build/asbir_panda/prefix_override:/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_panda/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/asbir_panda build --build-base /home/aralab/ASBIR/ASBIR-ROS2/build/asbir_panda/build install --record /home/aralab/ASBIR/ASBIR-ROS2/build/asbir_panda/install.log --install-scripts $base/lib/asbir_panda --single-version-externally-managed
+[2.418s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aralab/ASBIR/ASBIR-ROS2/src/asbir_xavier_gpio': PYTHONPATH=/home/aralab/ASBIR/ASBIR-ROS2/build/asbir_xavier_gpio/prefix_override:/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_xavier_gpio/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/asbir_xavier_gpio build --build-base /home/aralab/ASBIR/ASBIR-ROS2/build/asbir_xavier_gpio/build install --record /home/aralab/ASBIR/ASBIR-ROS2/build/asbir_xavier_gpio/install.log --install-scripts $base/lib/asbir_xavier_gpio --single-version-externally-managed
+[2.504s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aralab/ASBIR/ASBIR-ROS2/src/asbir_rc' returned '0': PYTHONPATH=/home/aralab/ASBIR/ASBIR-ROS2/build/asbir_rc/prefix_override:/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_rc/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/asbir_rc build --build-base /home/aralab/ASBIR/ASBIR-ROS2/build/asbir_rc/build install --record /home/aralab/ASBIR/ASBIR-ROS2/build/asbir_rc/install.log --install-scripts $base/lib/asbir_rc --single-version-externally-managed
+[2.512s] Level 1:colcon.colcon_core.environment:checking '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_rc' for CMake module files
+[2.513s] Level 1:colcon.colcon_core.environment:checking '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_rc' for CMake config files
+[2.514s] Level 1:colcon.colcon_core.environment:checking '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_rc/lib'
+[2.514s] Level 1:colcon.colcon_core.environment:checking '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_rc/bin'
+[2.514s] Level 1:colcon.colcon_core.environment:checking '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_rc/lib/pkgconfig/asbir_rc.pc'
+[2.514s] Level 1:colcon.colcon_core.environment:checking '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_rc/lib/python3.8/site-packages'
+[2.515s] Level 1:colcon.colcon_core.shell:create_environment_hook('asbir_rc', 'pythonpath')
+[2.516s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_rc/share/asbir_rc/hook/pythonpath.ps1'
+[2.518s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_rc/share/asbir_rc/hook/pythonpath.dsv'
+[2.518s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_rc/share/asbir_rc/hook/pythonpath.sh'
+[2.519s] Level 1:colcon.colcon_core.environment:checking '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_rc/bin'
+[2.519s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(asbir_rc)
+[2.521s] INFO:colcon.colcon_core.shell:Creating package script '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_rc/share/asbir_rc/package.ps1'
+[2.522s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_rc/share/asbir_rc/package.dsv'
+[2.522s] INFO:colcon.colcon_core.shell:Creating package script '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_rc/share/asbir_rc/package.sh'
+[2.523s] INFO:colcon.colcon_core.shell:Creating package script '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_rc/share/asbir_rc/package.bash'
+[2.524s] INFO:colcon.colcon_core.shell:Creating package script '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_rc/share/asbir_rc/package.zsh'
+[2.524s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_rc/share/colcon-core/packages/asbir_rc)
+[2.528s] Level 1:colcon.colcon_core.environment:checking '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_serial' for CMake module files
+[2.529s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aralab/ASBIR/ASBIR-ROS2/src/asbir_serial' returned '0': PYTHONPATH=/home/aralab/ASBIR/ASBIR-ROS2/build/asbir_serial/prefix_override:/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_serial/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/asbir_serial build --build-base /home/aralab/ASBIR/ASBIR-ROS2/build/asbir_serial/build install --record /home/aralab/ASBIR/ASBIR-ROS2/build/asbir_serial/install.log --install-scripts $base/lib/asbir_serial --single-version-externally-managed
+[2.529s] Level 1:colcon.colcon_core.environment:checking '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_serial' for CMake config files
+[2.530s] Level 1:colcon.colcon_core.environment:checking '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_serial/lib'
+[2.530s] Level 1:colcon.colcon_core.environment:checking '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_serial/bin'
+[2.530s] Level 1:colcon.colcon_core.environment:checking '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_serial/lib/pkgconfig/asbir_serial.pc'
+[2.530s] Level 1:colcon.colcon_core.environment:checking '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_serial/lib/python3.8/site-packages'
+[2.530s] Level 1:colcon.colcon_core.shell:create_environment_hook('asbir_serial', 'pythonpath')
+[2.532s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_serial/share/asbir_serial/hook/pythonpath.ps1'
+[2.532s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_serial/share/asbir_serial/hook/pythonpath.dsv'
+[2.533s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_serial/share/asbir_serial/hook/pythonpath.sh'
+[2.533s] Level 1:colcon.colcon_core.environment:checking '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_serial/bin'
+[2.533s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(asbir_serial)
+[2.534s] INFO:colcon.colcon_core.shell:Creating package script '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_serial/share/asbir_serial/package.ps1'
+[2.535s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_serial/share/asbir_serial/package.dsv'
+[2.535s] INFO:colcon.colcon_core.shell:Creating package script '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_serial/share/asbir_serial/package.sh'
+[2.535s] INFO:colcon.colcon_core.shell:Creating package script '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_serial/share/asbir_serial/package.bash'
+[2.536s] INFO:colcon.colcon_core.shell:Creating package script '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_serial/share/asbir_serial/package.zsh'
+[2.536s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_serial/share/colcon-core/packages/asbir_serial)
+[2.540s] Level 1:colcon.colcon_core.environment:checking '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_status' for CMake module files
+[2.541s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aralab/ASBIR/ASBIR-ROS2/src/asbir_status' returned '0': PYTHONPATH=/home/aralab/ASBIR/ASBIR-ROS2/build/asbir_status/prefix_override:/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_status/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/asbir_status build --build-base /home/aralab/ASBIR/ASBIR-ROS2/build/asbir_status/build install --record /home/aralab/ASBIR/ASBIR-ROS2/build/asbir_status/install.log --install-scripts $base/lib/asbir_status --single-version-externally-managed
+[2.543s] Level 1:colcon.colcon_core.environment:checking '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_status' for CMake config files
+[2.544s] Level 1:colcon.colcon_core.environment:checking '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_status/lib'
+[2.544s] Level 1:colcon.colcon_core.environment:checking '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_status/bin'
+[2.544s] Level 1:colcon.colcon_core.environment:checking '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_status/lib/pkgconfig/asbir_status.pc'
+[2.544s] Level 1:colcon.colcon_core.environment:checking '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_status/lib/python3.8/site-packages'
+[2.544s] Level 1:colcon.colcon_core.shell:create_environment_hook('asbir_status', 'pythonpath')
+[2.546s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_status/share/asbir_status/hook/pythonpath.ps1'
+[2.547s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_status/share/asbir_status/hook/pythonpath.dsv'
+[2.547s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_status/share/asbir_status/hook/pythonpath.sh'
+[2.548s] Level 1:colcon.colcon_core.environment:checking '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_status/bin'
+[2.548s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(asbir_status)
+[2.550s] INFO:colcon.colcon_core.shell:Creating package script '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_status/share/asbir_status/package.ps1'
+[2.551s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_status/share/asbir_status/package.dsv'
+[2.552s] INFO:colcon.colcon_core.shell:Creating package script '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_status/share/asbir_status/package.sh'
+[2.552s] INFO:colcon.colcon_core.shell:Creating package script '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_status/share/asbir_status/package.bash'
+[2.553s] INFO:colcon.colcon_core.shell:Creating package script '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_status/share/asbir_status/package.zsh'
+[2.553s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_status/share/colcon-core/packages/asbir_status)
+[2.557s] Level 1:colcon.colcon_core.environment:checking '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_image' for CMake module files
+[2.558s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aralab/ASBIR/ASBIR-ROS2/src/asbir_image' returned '0': PYTHONPATH=/home/aralab/ASBIR/ASBIR-ROS2/build/asbir_image/prefix_override:/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_image/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/asbir_image build --build-base /home/aralab/ASBIR/ASBIR-ROS2/build/asbir_image/build install --record /home/aralab/ASBIR/ASBIR-ROS2/build/asbir_image/install.log --install-scripts $base/lib/asbir_image --single-version-externally-managed
+[2.559s] Level 1:colcon.colcon_core.environment:checking '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_image' for CMake config files
+[2.559s] Level 1:colcon.colcon_core.environment:checking '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_image/lib'
+[2.559s] Level 1:colcon.colcon_core.environment:checking '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_image/bin'
+[2.559s] Level 1:colcon.colcon_core.environment:checking '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_image/lib/pkgconfig/asbir_image.pc'
+[2.560s] Level 1:colcon.colcon_core.environment:checking '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_image/lib/python3.8/site-packages'
+[2.560s] Level 1:colcon.colcon_core.shell:create_environment_hook('asbir_image', 'pythonpath')
+[2.562s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_image/share/asbir_image/hook/pythonpath.ps1'
+[2.563s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_image/share/asbir_image/hook/pythonpath.dsv'
+[2.563s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_image/share/asbir_image/hook/pythonpath.sh'
+[2.563s] Level 1:colcon.colcon_core.environment:checking '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_image/bin'
+[2.564s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(asbir_image)
+[2.566s] INFO:colcon.colcon_core.shell:Creating package script '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_image/share/asbir_image/package.ps1'
+[2.566s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_image/share/asbir_image/package.dsv'
+[2.567s] INFO:colcon.colcon_core.shell:Creating package script '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_image/share/asbir_image/package.sh'
+[2.567s] INFO:colcon.colcon_core.shell:Creating package script '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_image/share/asbir_image/package.bash'
+[2.568s] INFO:colcon.colcon_core.shell:Creating package script '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_image/share/asbir_image/package.zsh'
+[2.568s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_image/share/colcon-core/packages/asbir_image)
+[2.572s] Level 1:colcon.colcon_core.environment:checking '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_navigation' for CMake module files
+[2.573s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aralab/ASBIR/ASBIR-ROS2/src/asbir_navigation' returned '0': PYTHONPATH=/home/aralab/ASBIR/ASBIR-ROS2/build/asbir_navigation/prefix_override:/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_navigation/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/asbir_navigation build --build-base /home/aralab/ASBIR/ASBIR-ROS2/build/asbir_navigation/build install --record /home/aralab/ASBIR/ASBIR-ROS2/build/asbir_navigation/install.log --install-scripts $base/lib/asbir_navigation --single-version-externally-managed
+[2.573s] Level 1:colcon.colcon_core.environment:checking '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_navigation' for CMake config files
+[2.574s] Level 1:colcon.colcon_core.environment:checking '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_navigation/lib'
+[2.574s] Level 1:colcon.colcon_core.environment:checking '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_navigation/bin'
+[2.574s] Level 1:colcon.colcon_core.environment:checking '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_navigation/lib/pkgconfig/asbir_navigation.pc'
+[2.574s] Level 1:colcon.colcon_core.environment:checking '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_navigation/lib/python3.8/site-packages'
+[2.574s] Level 1:colcon.colcon_core.shell:create_environment_hook('asbir_navigation', 'pythonpath')
+[2.576s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_navigation/share/asbir_navigation/hook/pythonpath.ps1'
+[2.576s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_navigation/share/asbir_navigation/hook/pythonpath.dsv'
+[2.577s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_navigation/share/asbir_navigation/hook/pythonpath.sh'
+[2.577s] Level 1:colcon.colcon_core.environment:checking '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_navigation/bin'
+[2.577s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(asbir_navigation)
+[2.578s] INFO:colcon.colcon_core.shell:Creating package script '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_navigation/share/asbir_navigation/package.ps1'
+[2.578s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_navigation/share/asbir_navigation/package.dsv'
+[2.579s] INFO:colcon.colcon_core.shell:Creating package script '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_navigation/share/asbir_navigation/package.sh'
+[2.579s] INFO:colcon.colcon_core.shell:Creating package script '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_navigation/share/asbir_navigation/package.bash'
+[2.579s] INFO:colcon.colcon_core.shell:Creating package script '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_navigation/share/asbir_navigation/package.zsh'
+[2.579s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_navigation/share/colcon-core/packages/asbir_navigation)
+[2.690s] Level 1:colcon.colcon_core.environment:checking '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_panda' for CMake module files
+[2.691s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aralab/ASBIR/ASBIR-ROS2/src/asbir_panda' returned '0': PYTHONPATH=/home/aralab/ASBIR/ASBIR-ROS2/build/asbir_panda/prefix_override:/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_panda/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/asbir_panda build --build-base /home/aralab/ASBIR/ASBIR-ROS2/build/asbir_panda/build install --record /home/aralab/ASBIR/ASBIR-ROS2/build/asbir_panda/install.log --install-scripts $base/lib/asbir_panda --single-version-externally-managed
+[2.691s] Level 1:colcon.colcon_core.environment:checking '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_panda' for CMake config files
+[2.692s] Level 1:colcon.colcon_core.environment:checking '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_panda/lib'
+[2.692s] Level 1:colcon.colcon_core.environment:checking '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_panda/bin'
+[2.692s] Level 1:colcon.colcon_core.environment:checking '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_panda/lib/pkgconfig/asbir_panda.pc'
+[2.692s] Level 1:colcon.colcon_core.environment:checking '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_panda/lib/python3.8/site-packages'
+[2.692s] Level 1:colcon.colcon_core.shell:create_environment_hook('asbir_panda', 'pythonpath')
+[2.694s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_panda/share/asbir_panda/hook/pythonpath.ps1'
+[2.695s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_panda/share/asbir_panda/hook/pythonpath.dsv'
+[2.695s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_panda/share/asbir_panda/hook/pythonpath.sh'
+[2.696s] Level 1:colcon.colcon_core.environment:checking '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_panda/bin'
+[2.696s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(asbir_panda)
+[2.698s] INFO:colcon.colcon_core.shell:Creating package script '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_panda/share/asbir_panda/package.ps1'
+[2.698s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_panda/share/asbir_panda/package.dsv'
+[2.699s] INFO:colcon.colcon_core.shell:Creating package script '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_panda/share/asbir_panda/package.sh'
+[2.699s] INFO:colcon.colcon_core.shell:Creating package script '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_panda/share/asbir_panda/package.bash'
+[2.699s] INFO:colcon.colcon_core.shell:Creating package script '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_panda/share/asbir_panda/package.zsh'
+[2.700s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_panda/share/colcon-core/packages/asbir_panda)
+[2.704s] Level 1:colcon.colcon_core.environment:checking '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_xavier_gpio' for CMake module files
+[2.704s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aralab/ASBIR/ASBIR-ROS2/src/asbir_xavier_gpio' returned '0': PYTHONPATH=/home/aralab/ASBIR/ASBIR-ROS2/build/asbir_xavier_gpio/prefix_override:/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_xavier_gpio/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/asbir_xavier_gpio build --build-base /home/aralab/ASBIR/ASBIR-ROS2/build/asbir_xavier_gpio/build install --record /home/aralab/ASBIR/ASBIR-ROS2/build/asbir_xavier_gpio/install.log --install-scripts $base/lib/asbir_xavier_gpio --single-version-externally-managed
+[2.705s] Level 1:colcon.colcon_core.environment:checking '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_xavier_gpio' for CMake config files
+[2.705s] Level 1:colcon.colcon_core.environment:checking '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_xavier_gpio/lib'
+[2.705s] Level 1:colcon.colcon_core.environment:checking '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_xavier_gpio/bin'
+[2.705s] Level 1:colcon.colcon_core.environment:checking '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_xavier_gpio/lib/pkgconfig/asbir_xavier_gpio.pc'
+[2.706s] Level 1:colcon.colcon_core.environment:checking '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_xavier_gpio/lib/python3.8/site-packages'
+[2.706s] Level 1:colcon.colcon_core.shell:create_environment_hook('asbir_xavier_gpio', 'pythonpath')
+[2.708s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_xavier_gpio/share/asbir_xavier_gpio/hook/pythonpath.ps1'
+[2.708s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_xavier_gpio/share/asbir_xavier_gpio/hook/pythonpath.dsv'
+[2.708s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_xavier_gpio/share/asbir_xavier_gpio/hook/pythonpath.sh'
+[2.709s] Level 1:colcon.colcon_core.environment:checking '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_xavier_gpio/bin'
+[2.709s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(asbir_xavier_gpio)
+[2.711s] INFO:colcon.colcon_core.shell:Creating package script '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_xavier_gpio/share/asbir_xavier_gpio/package.ps1'
+[2.712s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_xavier_gpio/share/asbir_xavier_gpio/package.dsv'
+[2.712s] INFO:colcon.colcon_core.shell:Creating package script '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_xavier_gpio/share/asbir_xavier_gpio/package.sh'
+[2.712s] INFO:colcon.colcon_core.shell:Creating package script '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_xavier_gpio/share/asbir_xavier_gpio/package.bash'
+[2.712s] INFO:colcon.colcon_core.shell:Creating package script '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_xavier_gpio/share/asbir_xavier_gpio/package.zsh'
+[2.713s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_xavier_gpio/share/colcon-core/packages/asbir_xavier_gpio)
+[2.713s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.713s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.713s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.713s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.719s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.719s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.719s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.732s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.733s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aralab/ASBIR/ASBIR-ROS2/install/local_setup.ps1'
+[2.733s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/aralab/ASBIR/ASBIR-ROS2/install/_local_setup_util_ps1.py'
+[2.734s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aralab/ASBIR/ASBIR-ROS2/install/setup.ps1'
+[2.736s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aralab/ASBIR/ASBIR-ROS2/install/local_setup.sh'
+[2.736s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/aralab/ASBIR/ASBIR-ROS2/install/_local_setup_util_sh.py'
+[2.736s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aralab/ASBIR/ASBIR-ROS2/install/setup.sh'
+[2.738s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aralab/ASBIR/ASBIR-ROS2/install/local_setup.bash'
+[2.738s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aralab/ASBIR/ASBIR-ROS2/install/setup.bash'
+[2.739s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aralab/ASBIR/ASBIR-ROS2/install/local_setup.zsh'
+[2.740s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aralab/ASBIR/ASBIR-ROS2/install/setup.zsh'

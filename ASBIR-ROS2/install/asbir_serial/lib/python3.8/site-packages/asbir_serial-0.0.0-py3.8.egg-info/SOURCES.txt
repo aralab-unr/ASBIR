@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/asbir_serial/asbir_serial.egg-info/PKG-INFO
+../../build/asbir_serial/asbir_serial.egg-info/SOURCES.txt
+../../build/asbir_serial/asbir_serial.egg-info/dependency_links.txt
+../../build/asbir_serial/asbir_serial.egg-info/entry_points.txt
+../../build/asbir_serial/asbir_serial.egg-info/requires.txt
+../../build/asbir_serial/asbir_serial.egg-info/top_level.txt
+../../build/asbir_serial/asbir_serial.egg-info/zip-safe
+asbir_serial/__init__.py
+asbir_serial/serialComm.py
+resource/asbir_serial
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

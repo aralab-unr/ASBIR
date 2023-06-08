@@ -1,0 +1,13 @@
+[console_scripts]
+AlignAprilTag = asbir_navigation.alignApriltag:main
+AlignStructure = asbir_navigation.alignStructure:main
+BuildBestPath = asbir_navigation.buildBestPath:main
+FrameTest = asbir_navigation.frameTest:main
+GraphTest = asbir_navigation.graphTest:main
+ModelTest = asbir_navigation.modelTest:main
+PathController = asbir_navigation.pathController:main
+PointPub = asbir_navigation.pointPub:main
+PotentialField = asbir_navigation.potentialField:main
+ProcessMesh = asbir_navigation.processMesh:main
+SetZero = asbir_navigation.servoSetZero:main
+

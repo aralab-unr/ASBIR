@@ -1,0 +1,21 @@
+[1.885s] Invoking command in '/home/aralab/ASBIR/ASBIR-ROS2/src/asbir_image': PYTHONPATH=/home/aralab/ASBIR/ASBIR-ROS2/build/asbir_image/prefix_override:/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_image/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/asbir_image build --build-base /home/aralab/ASBIR/ASBIR-ROS2/build/asbir_image/build install --record /home/aralab/ASBIR/ASBIR-ROS2/build/asbir_image/install.log --install-scripts $base/lib/asbir_image --single-version-externally-managed
+[2.116s] running egg_info
+[2.117s] writing ../../build/asbir_image/asbir_image.egg-info/PKG-INFO
+[2.117s] writing dependency_links to ../../build/asbir_image/asbir_image.egg-info/dependency_links.txt
+[2.117s] writing entry points to ../../build/asbir_image/asbir_image.egg-info/entry_points.txt
+[2.117s] writing requirements to ../../build/asbir_image/asbir_image.egg-info/requires.txt
+[2.117s] writing top-level names to ../../build/asbir_image/asbir_image.egg-info/top_level.txt
+[2.152s] reading manifest file '../../build/asbir_image/asbir_image.egg-info/SOURCES.txt'
+[2.153s] writing manifest file '../../build/asbir_image/asbir_image.egg-info/SOURCES.txt'
+[2.153s] running build
+[2.153s] running build_py
+[2.153s] running install
+[2.154s] running install_lib
+[2.156s] running install_data
+[2.157s] running install_egg_info
+[2.159s] removing '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_image/lib/python3.8/site-packages/asbir_image-0.0.0-py3.8.egg-info' (and everything under it)
+[2.159s] Copying ../../build/asbir_image/asbir_image.egg-info to /home/aralab/ASBIR/ASBIR-ROS2/install/asbir_image/lib/python3.8/site-packages/asbir_image-0.0.0-py3.8.egg-info
+[2.173s] running install_scripts
+[2.177s] Installing CamPub script to /home/aralab/ASBIR/ASBIR-ROS2/install/asbir_image/lib/asbir_image
+[2.178s] writing list of installed files to '/home/aralab/ASBIR/ASBIR-ROS2/build/asbir_image/install.log'
+[2.200s] Invoked command in '/home/aralab/ASBIR/ASBIR-ROS2/src/asbir_image' returned '0': PYTHONPATH=/home/aralab/ASBIR/ASBIR-ROS2/build/asbir_image/prefix_override:/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_image/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/asbir_image build --build-base /home/aralab/ASBIR/ASBIR-ROS2/build/asbir_image/build install --record /home/aralab/ASBIR/ASBIR-ROS2/build/asbir_image/install.log --install-scripts $base/lib/asbir_image --single-version-externally-managed

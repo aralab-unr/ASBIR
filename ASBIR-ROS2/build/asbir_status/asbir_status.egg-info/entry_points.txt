@@ -1,0 +1,4 @@
+[console_scripts]
+nodeController = asbir_status.nodeController:main
+statusListener = asbir_status.statusListener:main
+

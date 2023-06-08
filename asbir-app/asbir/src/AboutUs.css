@@ -1,0 +1,177 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.about-us-header {
+    font-size: 3rem;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 1rem;
+  padding: 0 0.5rem;
+}
+
+.special-column {
+  float: left;
+  width: 25%;
+  margin-bottom: 1rem;
+  padding: 0 0.5rem;
+}
+
+.video-column-left {
+  display: flex;
+}
+
+video {
+  border: 0.5rem solid #000d53;
+}
+
+.video-column-right {
+  display: flex;
+}
+
+.image-card {
+  box-shadow: 0 0.25rem 0.5rem 0 rgba(0, 0, 0, 0.2);
+  margin: 0.5rem;
+}
+
+.about-section {
+  padding: 1.5rem;
+  text-align: center;
+  background-color: #000d53;
+  color: white;
+}
+
+.project-description-header {
+  padding: 0.5rem;
+  text-align: center;
+  background-color: #000d53;
+  color: white;
+}
+
+.project-description-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, auto);
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+  .project-description-section {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.project-description-section > section {
+  border: 0.5rem solid #000d53;
+  padding: 20px;
+  text-align: justify;
+}
+
+.project-description-section > h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0 0 20px;
+}
+
+.project-description-section > p {
+  font-size: 1.25rem;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.container {
+  padding: 0 1rem;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: #000d53;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 0.5rem;
+  color: white;
+  background-color: #000d53;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.about-us-footer {
+  padding: 1.5rem;
+  text-align: center;
+  background-color: #000d53;
+  color: white;
+}
+
+.fixed-app-send {
+  position: absolute;
+  top: 1rem;
+  right: 2rem;
+  border: 0.1rem solid #ffffff; 
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.fixed-app-send > a {
+  text-decoration: none !important;
+}
+
+.video-grid {
+  display: grid;
+  /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1.25rem;
+  align-items: center;
+  justify-items: center;
+}
+
+.video-item {
+  width: 100%;
+  text-align: center;
+}
+
+.video-item > video {
+  width: 85%;
+}
+
+@media screen and (max-width: 1200px) {
+  .video-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

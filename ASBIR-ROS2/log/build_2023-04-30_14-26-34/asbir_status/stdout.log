@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/asbir_status/asbir_status.egg-info/PKG-INFO
+writing dependency_links to ../../build/asbir_status/asbir_status.egg-info/dependency_links.txt
+writing entry points to ../../build/asbir_status/asbir_status.egg-info/entry_points.txt
+writing requirements to ../../build/asbir_status/asbir_status.egg-info/requires.txt
+writing top-level names to ../../build/asbir_status/asbir_status.egg-info/top_level.txt
+reading manifest file '../../build/asbir_status/asbir_status.egg-info/SOURCES.txt'
+writing manifest file '../../build/asbir_status/asbir_status.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+copying /home/aralab/ASBIR/ASBIR-ROS2/build/asbir_status/build/lib/asbir_status/nodeController.py -> /home/aralab/ASBIR/ASBIR-ROS2/install/asbir_status/lib/python3.8/site-packages/asbir_status
+byte-compiling /home/aralab/ASBIR/ASBIR-ROS2/install/asbir_status/lib/python3.8/site-packages/asbir_status/nodeController.py to nodeController.cpython-38.pyc
+running install_data
+running install_egg_info
+removing '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_status/lib/python3.8/site-packages/asbir_status-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/asbir_status/asbir_status.egg-info to /home/aralab/ASBIR/ASBIR-ROS2/install/asbir_status/lib/python3.8/site-packages/asbir_status-0.0.0-py3.8.egg-info
+running install_scripts
+Installing nodeController script to /home/aralab/ASBIR/ASBIR-ROS2/install/asbir_status/lib/asbir_status
+Installing statusListener script to /home/aralab/ASBIR/ASBIR-ROS2/install/asbir_status/lib/asbir_status
+writing list of installed files to '/home/aralab/ASBIR/ASBIR-ROS2/build/asbir_status/install.log'

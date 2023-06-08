@@ -1,0 +1,22 @@
+[1.918s] Invoking command in '/home/aralab/ASBIR/ASBIR-ROS2/src/asbir_rc': PYTHONPATH=/home/aralab/ASBIR/ASBIR-ROS2/build/asbir_rc/prefix_override:/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_rc/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/asbir_rc build --build-base /home/aralab/ASBIR/ASBIR-ROS2/build/asbir_rc/build install --record /home/aralab/ASBIR/ASBIR-ROS2/build/asbir_rc/install.log --install-scripts $base/lib/asbir_rc --single-version-externally-managed
+[2.135s] running egg_info
+[2.136s] writing ../../build/asbir_rc/asbir_rc.egg-info/PKG-INFO
+[2.136s] writing dependency_links to ../../build/asbir_rc/asbir_rc.egg-info/dependency_links.txt
+[2.136s] writing entry points to ../../build/asbir_rc/asbir_rc.egg-info/entry_points.txt
+[2.136s] writing requirements to ../../build/asbir_rc/asbir_rc.egg-info/requires.txt
+[2.137s] writing top-level names to ../../build/asbir_rc/asbir_rc.egg-info/top_level.txt
+[2.172s] reading manifest file '../../build/asbir_rc/asbir_rc.egg-info/SOURCES.txt'
+[2.173s] writing manifest file '../../build/asbir_rc/asbir_rc.egg-info/SOURCES.txt'
+[2.173s] running build
+[2.173s] running build_py
+[2.173s] running install
+[2.174s] running install_lib
+[2.176s] running install_data
+[2.177s] running install_egg_info
+[2.179s] removing '/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_rc/lib/python3.8/site-packages/asbir_rc-0.0.0-py3.8.egg-info' (and everything under it)
+[2.179s] Copying ../../build/asbir_rc/asbir_rc.egg-info to /home/aralab/ASBIR/ASBIR-ROS2/install/asbir_rc/lib/python3.8/site-packages/asbir_rc-0.0.0-py3.8.egg-info
+[2.180s] running install_scripts
+[2.200s] Installing teleopGamepad script to /home/aralab/ASBIR/ASBIR-ROS2/install/asbir_rc/lib/asbir_rc
+[2.200s] Installing teleopKeyboard script to /home/aralab/ASBIR/ASBIR-ROS2/install/asbir_rc/lib/asbir_rc
+[2.200s] writing list of installed files to '/home/aralab/ASBIR/ASBIR-ROS2/build/asbir_rc/install.log'
+[2.247s] Invoked command in '/home/aralab/ASBIR/ASBIR-ROS2/src/asbir_rc' returned '0': PYTHONPATH=/home/aralab/ASBIR/ASBIR-ROS2/build/asbir_rc/prefix_override:/home/aralab/ASBIR/ASBIR-ROS2/install/asbir_rc/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/asbir_rc build --build-base /home/aralab/ASBIR/ASBIR-ROS2/build/asbir_rc/build install --record /home/aralab/ASBIR/ASBIR-ROS2/build/asbir_rc/install.log --install-scripts $base/lib/asbir_rc --single-version-externally-managed

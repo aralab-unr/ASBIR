@@ -1,0 +1,3 @@
+[console_scripts]
+CamPub = asbir_image.asbirCam_pub:main
+

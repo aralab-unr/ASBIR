@@ -1,0 +1,28 @@
+librealsense2:
+    sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-key F6E65AC044F831AC80A06380C8B3A55A6F3EFCDE || sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-key 
+    sudo add-apt-repository "deb https://librealsense.intel.com/Debian/apt-repo $(lsb_release -cs) main" -u
+    sudo apt-get install librealsense2-dkms
+    sudo apt-get install librealsense2-utils
+
+    Optional:
+        sudo apt-get install librealsense2-dev
+        sudo apt-get install librealsense2-dbg
+
+diagnostics:
+    git clone https://github.com/ros/diagnostics.git -b ros2
+
+image_common:
+    git clone https://github.com/ros-perception/image_common.git -b foxy
+
+realsense-ros:
+    git clone https://github.com/IntelRealSense/realsense-ros.git -b ros2-legacy
+
+rosbridge_suite:
+    git clone https://github.com/RobotWebTools/rosbridge_suite.git -b ros2
+
+tf2_web_publisher_py:
+    git clone https://github.com/Wisc-HCI/tf2_web_republisher_py.git -b master
+
+vision_opencv:
+    git clone https://github.com/ros-perception/vision_opencv.git -b foxy
+
